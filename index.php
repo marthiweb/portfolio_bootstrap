@@ -1,5 +1,53 @@
 <?php include('incs/header.php') ?>
 
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+  </ol>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="imgs/slider1.jpg" alt="First slide">
+     <div class="carousel-caption d-none d-md-block">
+	      <h1>Nunc eget metus quis libero rhoncus pellentesque.</h1>
+	      <p>Vestibulum luctus sapien nisi, nec tincidunt elit interdum vitae. In eleifend turpis ac vestibulum bibendum. Pellentesque euismod est ut ante consectetur ullamcorper in ut nunc. Nunc eget metus quis libero rhoncus pellentesque. Curabitur a tincidunt elit.</p>
+	  </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="imgs/slider2.jpg" alt="Second slide">
+     <div class="carousel-caption d-none d-md-block">
+	      <h1>Nunc eget metus quis libero rhoncus pellentesque.</h1>
+	      <p>Vestibulum luctus sapien nisi, nec tincidunt elit interdum vitae. In eleifend turpis ac vestibulum bibendum. Pellentesque euismod est ut ante consectetur ullamcorper in ut nunc. Nunc eget metus quis libero rhoncus pellentesque. Curabitur a tincidunt elit.</p>
+	  </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="imgs/slider3.jpg" alt="Third slide">
+      <div class="carousel-caption d-none d-md-block">
+	      <h1>Nunc eget metus quis libero rhoncus pellentesque.</h1>
+	      <p>Vestibulum luctus sapien nisi, nec tincidunt elit interdum vitae. In eleifend turpis ac vestibulum bibendum. Pellentesque euismod est ut ante consectetur ullamcorper in ut nunc. Nunc eget metus quis libero rhoncus pellentesque. Curabitur a tincidunt elit.</p>
+	  </div>
+   </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="imgs/slider4.jpg" alt="Fourth slide">
+      <div class="carousel-caption d-none d-md-block">
+	      <h1>Nunc eget metus quis libero rhoncus pellentesque.</h1>
+	      <p>Vestibulum luctus sapien nisi, nec tincidunt elit interdum vitae. In eleifend turpis ac vestibulum bibendum. Pellentesque euismod est ut ante consectetur ullamcorper in ut nunc. Nunc eget metus quis libero rhoncus pellentesque. Curabitur a tincidunt elit.</p>
+	  </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
 	<div class="container">
 		<h1>Título <a href="">Link no título</a></h1>
 		<h2>Título <a href="">Link no título</a></h2>
